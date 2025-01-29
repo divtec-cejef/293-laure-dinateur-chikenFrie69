@@ -8,9 +8,9 @@ body{
     line-height: 1.4;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-
+    margin: 0;
 }
-h1,h2{
+h1,h2, .nom{
     font-family: "Changa One", sans-serif;
     font-weight: 400;
 }
@@ -33,3 +33,19 @@ a{
     color: #e71d36;
     text-decoration: none;
 }
+
+/* menu de navigation */
+header{
+    background-color: #011627;
+    padding: 10px;
+}
+header .logo{
+    text-align: center;
+}
+
+header .logo .nom {
+    color: #2EC4B6;
+    font-size: 1.75rem;
+}
+
+header .logo .nom:hover {}
