@@ -48,4 +48,12 @@ header .logo .nom {
     font-size: 1.75rem;
 }
 
-header .logo .nom:hover {}
+header .logo .nom:hover {
+    color: #e71d36;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    list-style: none;
+}
