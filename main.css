@@ -107,9 +107,10 @@ header nav a {
     color: #fdfffc;
     font-weight: 800;
 }
-header nav a:hover{
+header nav a:hover, .header nav .active a{
     color: #2EC4B6;
 }
+
 
 
 footer{
