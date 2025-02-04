@@ -71,7 +71,6 @@ a{
 header{
     background-color: #011627;
     padding: 10px;
-    text-align: center;
 }
 header .logo{
     text-align: center;
@@ -82,10 +81,20 @@ header .logo .nom {
     font-size: 1.75rem;
 }
 
+header nav ul{
+    text-align: center;
+}
+
 header .logo .nom:hover {
     color: #e71d36;
     text-decoration: none;
 }
+
+header nav li{
+    display: inline-block;
+    margin: 0 1em;
+}
+
 header nav ul{
     list-style-type: none;
     padding: 0;
