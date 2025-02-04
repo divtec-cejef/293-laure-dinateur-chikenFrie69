@@ -71,6 +71,7 @@ a{
 header{
     background-color: #011627;
     padding: 10px;
+    text-align: center;
 }
 header .logo{
     text-align: center;
@@ -102,6 +103,15 @@ header nav ul{
 header  nav ul li.acceil{
     display: none;
 }
+header nav a {
+    color: #fdfffc;
+    font-weight: 800;
+}
+header nav a:hover{
+    color: #2EC4B6;
+}
+
+
 footer{
     text-align: center;
     align-items: center;
